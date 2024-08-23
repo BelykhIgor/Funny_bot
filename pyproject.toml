@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "funnybot"
+version = "0.1.0"
+description = ""
+authors = ["Belykh Igor <4340345@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.2"
+telebot = "0.0.5"
+supervisor = "4.2.5"
+asyncio = "3.4.3"
+aiogram = "3.8.0"
+python-dotenv = "1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

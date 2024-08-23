@@ -1,0 +1,32 @@
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Папки с временными файлами
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.eggs/
+*.log
+*.tmp
+
+# Файлы конфигурации IDE
+.vscode/
+.idea/
+
+# Файлы окружения
+.env
+.env.local
+.env.*.local
+.env.docker
+
+# Документы и базы данных
+#*.db
+*.sqlite3
+postgres_db
+
+# Сборка контейнера
+#Dockerfile
+#docker-compose.yml

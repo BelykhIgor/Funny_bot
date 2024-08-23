@@ -1,0 +1,16 @@
+# Исключаем файлы и директории
+.env
+.env.docker
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.tmp
+.DS_Store
+.git
+.vscode
+.idea
+postgres_db

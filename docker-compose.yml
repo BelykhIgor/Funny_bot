@@ -1,0 +1,9 @@
+
+services:
+  bot:
+    build: .
+    environment:
+      - BOT_TOKEN=${BOT_TOKEN}
+    volumes:
+      - .:/app
+    command: python acync_bot.py
